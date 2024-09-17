@@ -1,0 +1,25 @@
+Flow ambil barang dari RS:
+DRIVER---------------------------------------------------------------------------------------------------------
+1. Menu Pickup (Mengurangi stok RS. Menambah stok Pengiriman.)
+ - Input Form
+ - Klik Pickup
+2. Ketika sampai di WS buka Menu Task List > In Progress  (Mengurangi stok Pengiriman. Menambah stok WS.)
+ - Klik Drop Off item yang akan diserahkan ke WS
+ - Input form
+ - Klik Drop Off
+
+Flow kirim barang ke RS:
+SPV-------------------------------------------------------------------------------------------------------------
+1. Spv input request di Menu Input Task. (Tidak ada pemindahan status disini, hanya request.)
+ - Input Form
+ - Klik Input
+DRIVER----------------------------------------------------------------------------------------------------------
+2. Data input dri spv masuk ke Menu Task List > My Task driver. (Mengurangi stok WS. Menambah stok pengiriman.)
+ - driver tinggal klik pickup setelah barang diambil
+3. Ketika sampai di RS buka Menu Task List > In Progress. (Mengurangi stok Pengiriman. Menambah stok RS.)
+ - Klik Drop Off item yang akan diserahkan ke RS
+ - Input form
+ - Klik Drop Off
+ 
+? Manage product (tambah hapus), manage user (tambah hapus), manage client (tambah hapus), cancel pickup & drop off
+? Summary report, flow rewash
